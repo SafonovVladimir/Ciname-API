@@ -1,7 +1,7 @@
 # Cinema API
 API service for cinema management written on DRF
 
-## Install PostgresSQL and create db
+### Install PostgresSQL and create db
 
 - git clone https://github.com/SafonovVladimir/Cinema-API.git
 - cd cinema-API
@@ -10,10 +10,10 @@ API service for cinema management written on DRF
 - pip install -r requirements.txt
 
 ### Setup db
-- set DB_HOST=your_db_hostname
-- set DB_NAME=your_db_name
-- set DB_USER=your_db_username
-- set DB_PASSWORD=your_db_user_password
+- set POSTGRES_HOST=your_db_hostname
+- set POSTGRES_DB=your_db_name
+- set POSTGRES_USER=your_db_username
+- set POSTGRES_PASSWORD=your_db_user_password
 - set SECRET_KEY=your_secret_key
 
 ### Run server
@@ -29,3 +29,13 @@ Docker should be installed
 ### Getting access
 - create user via /api/user/register/
 - get access token via /api/user/token/
+
+## Features
+- JWT authenticated
+- Admin panel /admin/
+- Documentation is located at /api/doc/swagger/
+- Managing orders and tickets
+- Creating movies with genres and actors
+- Creating Cinema halls
+- Adding movies sessions
+- Filtering movies and movie sessions
