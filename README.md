@@ -1,20 +1,28 @@
 # Cinema API
 API service for cinema management written on DRF
 
-### Install PostgresSQL and create db
+### Install PostgresSQL, create and setup db
 
 - git clone https://github.com/SafonovVladimir/Cinema-API.git
 - cd cinema-API
 - python -m venv venv 
+
+#### Linux/macOS:
 - source venv/bin/activate
 - pip install -r requirements.txt
-
-### Setup db
-- set POSTGRES_HOST=your_db_hostname
-- set POSTGRES_DB=your_db_name
-- set POSTGRES_USER=your_db_username
-- set POSTGRES_PASSWORD=your_db_user_password
-- set SECRET_KEY=your_secret_key
+- export DB_HOST=<your db hostname>
+- export DB_NAME=<your db name>
+- export DB_USER=<your db user>
+- export DB_PASSWORD=<your db password>
+- export DB_SECRET_KEY=<your secret key>
+#### Windows: 
+- venv\Scripts\activate
+- pip install -r requirements.txt
+- set DB_HOST=<your db hostname>
+- set DB_NAME=<your db name>
+- set DB_USER=<your db user>
+- set DB_PASSWORD=<your db password>
+- set DB_SECRET_KEY=<your secret key>
 
 ### Run server
 - python manage.py migrate
@@ -39,3 +47,12 @@ Docker should be installed
 - Creating Cinema halls
 - Adding movies sessions
 - Filtering movies and movie sessions
+
+# Endpoints:
+![](D:\PythonProjects\Mate\cinema-API\screenshots\1.jpg)
+
+![](D:\PythonProjects\Mate\cinema-API\screenshots\2.jpg)
+
+![](D:\PythonProjects\Mate\cinema-API\screenshots\3.jpg)
+
+![](D:\PythonProjects\Mate\cinema-API\screenshots\4.jpg)
