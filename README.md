@@ -49,10 +49,10 @@ Docker should be installed
 - Filtering movies and movie sessions
 
 # Endpoints:
-![](D:\PythonProjects\Mate\cinema-API\screenshots\1.jpg)
+![](readme_screenshots/1.jpg)
 
-![](D:\PythonProjects\Mate\cinema-API\screenshots\2.jpg)
+![](readme_screenshots/2.jpg)
 
-![](D:\PythonProjects\Mate\cinema-API\screenshots\3.jpg)
-
-![](D:\PythonProjects\Mate\cinema-API\screenshots\4.jpg)
+![](readme_screenshots/3.jpg)
+* Filtering
+![](readme_screenshots/4.jpg)
