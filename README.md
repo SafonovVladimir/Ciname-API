@@ -10,19 +10,19 @@ API service for cinema management written on DRF
 #### Linux/macOS:
 - source venv/bin/activate
 - pip install -r requirements.txt
-- export DB_HOST=<your db hostname>
-- export DB_NAME=<your db name>
-- export DB_USER=<your db user>
-- export DB_PASSWORD=<your db password>
-- export DB_SECRET_KEY=<your secret key>
+- export POSTGRES_HOST=<your db hostname>
+- export POSTGRES_DB=<your db name>
+- export POSTGRES_USER=<your db user>
+- export POSTGRES_PASSWORD=<your db password>
+- export SECRET_KEY=<your secret key>
 #### Windows: 
 - venv\Scripts\activate
 - pip install -r requirements.txt
-- set DB_HOST=<your db hostname>
-- set DB_NAME=<your db name>
-- set DB_USER=<your db user>
-- set DB_PASSWORD=<your db password>
-- set DB_SECRET_KEY=<your secret key>
+- set POSTGRES_HOST=<your db hostname>
+- set POSTGRES_DB=<your db name>
+- set POSTGRES_USER=<your db user>
+- set POSTGRES_PASSWORD=<your db password>
+- set SECRET_KEY=<your secret key>
 
 ### Run server
 - python manage.py migrate
